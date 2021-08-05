@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Dancing+Script:wght@700&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #8A71C9;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 1em;
+    font-size: 55pt;
+    font-family: 'Dancing Script', cursive;
+}
+
+.menu nav {
+    background-color: #ff6cb5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.menu nav a {
+    color: white;
+    font-size: 16pt;
+    margin: 0 60px;
+    line-height: 2.5;
+}
+
+.menu nav a:hover {
+    transform: scale(1.5);
+}
+
+main {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+main p {
+    color: white;
+    margin-bottom: 1em;
+    font-size: 17pt;
+    line-height: 1.5;
+}
+
+#titulo-principal {
+    color: #2a0074;
+    margin: 1em;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 40pt;
+}
+
+#titulo-infancia {
+    color: #04ff9f;
+    margin: 1em;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+
+#titulo-juventude {
+    color: #ff9e9e;
+    margin: 1em;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+
+#titulo-adulta {
+    color: #ffe36d;
+    margin: 1em;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+
+.imagem-ada {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+} 
+
+#sub-titulo {
+    color: aliceblue;
+    margin: 1em;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+ul {
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.lista a {
+    color: aqua;
+    list-style: none;
+    line-height: 30px;
+    font-size: 13pt;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 174, 0);
+}
+
+/* RODAPE */
+
+footer div#rodape {
+    background-color: purple ;
+}
+
+footer div#rodape {
+    background-color: ;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+footer div#rodape p {
+    color: white;
+    font-weight: bold;
+    margin: 2em;
+    font-size: large;
+}
+
+footer label {
+    color: white;
+    padding: 5px;
+}
+
+input {
+    padding: 10px 20px;
+    font-size: large;
+}
+
+#botao {
+    background-color: #04ff9f;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/* media queries */
+
+@media screen and (max-width: 800px) {
+    .menu nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+    }
+
+    .menu nav a {
+        background-color: #ff6cb5;
+        margin: 0 15px 0 0;
+        border: #ff9e9e;
+        border-radius: 5px;
+        padding: 0 10px;
+        font-size: inherit;
+    }
+
+    main {
+        max-width: 90%;
+    }
+
+    #titulo-principal {
+        margin-top: 90px;
+    }
+
+    footer form {
+        display: inline-grid;
+
+    }
+
+    #botao {
+        margin-top: 20px;
+    }
+}
